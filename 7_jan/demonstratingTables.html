@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Demonstrating Table tags.
+		</title>
+		<style type="text/css">
+			table, td, tr, th {
+				border: 1px solid;
+				text-align: center;
+			}
+			td:hover {
+				background: #ccc;
+			}
+			.container {
+				border: 1px solid;
+				margin: 5px;
+				height: 350px;
+				width: 500px;
+			}
+			.row {
+				height: 30px;
+				margin: 5px;
+				padding: 5px;
+				clear: both;
+				
+			}
+			.cell {
+				border: 1px solid;
+				padding: 7px;
+				width: 70px;
+				text-align: center;
+				float: left;
+				margin: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<h3>Student details.</h3>
+
+		<table cellspacing="10px" cellpadding="10px">
+			<thead>
+				<tr>
+					<th>Sno.</th>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Gender</th>
+					<th>Present Location</th>
+					<th>Prmnt Loc</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Raj</td>
+					<td>11</td>
+					<td>Male</td>
+					<td>Hyderabad</td>
+					<td>Pune</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Raj</td>
+					<td>11</td>
+					<td>Male</td>
+					<td>Hyderabad</td>
+					<td rowspan="2">Delhi</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Raj</td>
+					<td>11</td>
+					<td>Male</td>
+					<td>Hyderabad</td>
+					
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Teena</td>
+					<td>11</td>
+					<td>Female</td>
+					<td colspan="2">Hyderabad</td>
+					
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Raj</td>
+					<td>11</td>
+					<td>Male</td>
+					<td>Hyderabad</td>
+					<td>Delhi</td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="container">
+			<div class="row">
+				<div class="cell">
+					...
+				</div>
+				<div class="cell">
+					...
+				</div>
+				<div class="cell">
+					...
+				</div>
+				<div class="cell">
+					...
+				</div>
+				<div class="cell">
+					...
+				</div>
+			</div>
+			<div class="row">
+				<div class="cell">
+					...
+				</div>
+				<div class="cell">
+					...
+				</div>
+				<div class="cell">
+					...
+				</div>
+				<div class="cell">
+					...
+				</div>
+				<div class="cell">
+					...
+				</div>
+			</div>
+			<div class="row">
+				<div class="cell">
+					...
+				</div>
+				<div class="cell">
+					...
+				</div>
+				<div class="cell">
+					...
+				</div>
+				<div class="cell">
+					...
+				</div>
+				<div class="cell">
+					...
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

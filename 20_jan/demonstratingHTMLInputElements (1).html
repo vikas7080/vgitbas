@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Demonstrating HTML Input elements.
+		</title>
+		<style type="text/css">
+			.header {
+				border: 1px solid;
+				text-align: center;
+				text-decoration: underline;
+				margin: 10px;
+				padding: 10px;
+			}
+			.container {
+				border: 2px solid;
+				margin: 10px auto;
+				padding: 10px;
+				width: 600px;
+				height: 600px;
+				background: #ccc;
+			}
+			li {
+				list-style: none;
+				border: 1px solid;
+				margin: 5px;
+				padding: 5px;
+				background: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			Student Registration Page
+		</div>
+		<div class="container">
+
+			<ul>
+				<li>
+					<label for="uname">Enter user name:</label>
+					<input type="text" name="uname">
+				</li>
+				<li>
+					<label for="uage">Enter Age:</label>
+					 <input type="text" name="uage">
+				</li>
+				<li>
+					Account Password:
+					<input type="Password" >
+				</li>
+				<li>
+					Country Name:
+					<select>
+						<option>INDIA</option>
+						<option>CHINA</option>
+						<option selected>Japan</option>
+						<option>USA</option>
+					</select>
+				</li>
+				<li>
+					Gender:
+					<input type="radio" name="ugender"> M 
+					<input type="radio" name="ugender"> F
+				</li>
+				<li>
+					Languages  User knows: 
+					<input type="checkbox"> English
+					<input type="checkbox"> Tel
+					<input type="checkbox"> Hindi
+				</li>
+				<li>
+					Tell about yourself:
+					<textarea maxlength="1000" row="" col=""></textarea>
+				</li>
+				<li>
+					<input type="button" value="Register">
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

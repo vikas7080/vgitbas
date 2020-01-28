@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Student Details
+		</title>
+		<style type="text/css">
+			.containr {
+				width: 120px;
+				height: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<input type="submit" class="containr">
+		<div>Demonstrating Student details</div>
+		<script type="text/javascript">
+			var sname, sage, m1, m2, m3, gender;
+			sname = "Prasad";
+			sage = 33;
+			m1 = 33;
+			m2 = 44;
+			m3 = 55;
+
+			m1 = parseInt(m1);
+			m2 = parseInt(m2);
+			m3 = parseInt(m3);
+
+			var total = m1 + m2 + m3;
+			var avg = total / 3;
+
+			console.log("Student details");
+			console.log("Name " + sname);
+			console.log("Age " + sage);
+			console.log("Total " + total);
+			console.log("Avg " + avg);
+
+			if (avg >= 40) {
+				console.log("user got passed");	
+			}	
+			if (avg < 40) {
+				console.log("Got Failed");
+			}
+		</script>
+	</body>
+</html>

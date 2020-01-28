@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>
+			Demonstrating CSS positions
+		</title>
+		<style type="text/css">
+			.block {
+				border: 1px solid;
+				width: 120px;
+				height: 120px;
+				text-align: center;
+			}
+			.block1 {
+				background: green;
+			}
+			.block2 {
+				background: blue;
+				left: 300px;
+				top: 110px;
+				position: relative;
+
+				
+			}
+			.block3 {
+				background: #ccc;
+			}
+			.block4 {
+				background: pink;
+				
+			}
+			.grandParent {
+				width: 700px;
+				height: 600px;
+				margin: 20px;
+				border: 2px solid;
+				padding: 20px;
+				
+			}
+			.parent {
+				width: 600px;
+				height: 500px;
+				margin: 20px;
+				border: 2px solid;
+				
+			}
+			.child {
+				border: 1px solid;
+				width: 120px;
+				height: 100px;
+				background: yellow;
+				left: 20px;
+				top: 40px;
+				position: absolute;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="block block1">
+			BLOCK 1
+		</div>
+		<div class="block block2">
+			BLOCK 2
+			
+		</div>
+		<div class="block block3">
+			BLOCK 3
+		</div>
+		<div class="block block4">
+			BLOCK 4
+		</div>
+		<div class="grandParent">
+			GRAND Paarent
+			<div class="parent">
+				PRRENT
+				<div class="child">
+					CHILD
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

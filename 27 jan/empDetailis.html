@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Demonstrating employe details
+		</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var bSal = 4000;
+			var gender = 'male';
+			var totalSal = 45566;
+			var totalTax;
+			var taxPercent = 0;
+			if (gender == 'male') {
+				if (totalSal >= 50000) {
+					taxPercent = 15;
+				} else if (totalSal >= 30000) {
+					taxPercent = 10;
+				}
+			} else { // for gender female
+				if (totalSal >= 50000) {
+					taxPercent = 10;
+				} else if (totalSal >= 30000) {
+					taxPercent = 5;
+				}
+			}
+			totalTax = (totalSal * taxPercent)/100;
+			console.log("Total Tax" + totalTax);
+			var a = 10;
+			var b;
+			console.log(typeof(a))
+			console.log(typeof(b))
+			console.log(typeof(z))
+		</script>
+	</body>	
+</html>
